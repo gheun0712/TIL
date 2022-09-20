@@ -29,7 +29,7 @@ class ValidationSample extends Component {
           ref={(ref) => (this.input = ref)}
           type="password"
           value={this.state.password}
-          onChange={this.state.handleChange}
+          onChange={this.handleChange}
           className={
             this.state.clicked
               ? this.state.validated
